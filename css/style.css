@@ -1,17 +1,162 @@
 body {
   font-size: 14px;
-  line-height: 2em;
+  line-height: 2;
   color: black;
   font-weight: bold;
   font-family: "PT Sans", "Arial", serif;
 }
 
+
 h1 {
   font-size: 30px;
-  line-height: 1,5em;
+  line-height: 1,5;
 }
 
 h2 {
   font-size: 24px;
-  line-height: 1.2em;
+  line-height: 1.2;
 }
+
+.main-header {
+  margin-bottom: 60px;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-navigation-shop {
+  float: left;
+  min-height: 70px;
+  width: 810px;
+}
+
+.user-block {
+  float: right;
+  min-height: 70px;
+  width: 250px;
+}
+
+.main-navigation-shop li {
+  display: inline-block;
+}
+
+.breadcrumbs {
+  float: left;
+}
+
+form {
+  float: left;
+   width: 230px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*======================================
+ Системное оформление - не изменять
+=======================================*/
+
+/*body {
+  padding: 3px;
+}
+
+body > *,
+body > * > *,
+body > * > * > * {
+  position: relative;
+}
+
+body > *::before,
+body > * > *::before,
+body > * > * > *::before {
+  content: "";
+  position: absolute;
+
+  height: 24px;
+  padding: 2px 5px;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Courier New", monotype;
+  white-space: nowrap;
+}
+
+body > *::before {
+  top: -3px;
+  left: -3px;
+}
+
+body > * > *::before {
+  top: -3px;
+  left: -3px;
+}
+
+body > * > * > *::before {
+  top: 0;
+  left: 0;
+}
+
+body > * {
+  background: rgba(0, 128, 0, 0.2);
+  box-shadow: 0 0 0 3px green;
+}
+
+body > *::before {
+  color: white;
+
+  background: green;
+}
+
+body > * > * {
+  background: rgba(255, 45, 82, 0.2);
+  box-shadow: 0 0 0 3px rgb(255, 45, 82);
+}
+
+body > * > *::before {
+  color: white;
+
+  background: rgb(255, 45, 82);
+}
+
+.main-header::before {
+  content: ".main-header";
+}
+
+.container::before {
+  content: ".container";
+}
+
+.main-header .container::before {
+  top: auto;
+  bottom: -28px;
+}*/
