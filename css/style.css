@@ -92,6 +92,13 @@ form {
   margin-right: 130px;
 }
 
+.product-img {
+  display: inline-block;
+  vertical-align: top;
+  width: 480px;
+  height: 500px;
+}
+
 .item img {
   display: inline-block;
   width: 140px;
