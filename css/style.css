@@ -19,6 +19,7 @@ h2 {
 
 .main-header {
   margin-bottom: 60px;
+  min-height: 70px;
 }
 
 .clearfix {
@@ -76,114 +77,59 @@ form {
 
 .footer-contacts {
   float: left;
+  width: 320px;
 }
 
 .footer-social {
   float: left;
+  width: 160px;
   margin-left: 80px;
 }
 
 .footer-copyright {
   float: right;
+  width: 150px;
   margin-right: 130px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*======================================
- Системное оформление - не изменять
-=======================================*/
-
-/*body {
-  padding: 3px;
+.item img {
+  display: inline-block;
+  width: 140px;
+  height: 140px;
+  vertical-align: bottom;
+  margin-right: 20px;
 }
 
-body > *,
-body > * > *,
-body > * > * > * {
-  position: relative;
+.presence {
+  display: inline-block;
+  width: 100px;
+  
 }
 
-body > *::before,
-body > * > *::before,
-body > * > * > *::before {
-  content: "";
-  position: absolute;
-
-  height: 24px;
-  padding: 2px 5px;
-
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 24px;
-  font-family: "Courier New", monotype;
-  white-space: nowrap;
+.article {
+  display: inline-block;
+  width: 140px;
+ 
 }
 
-body > *::before {
-  top: -3px;
-  left: -3px;
+.description {
+  display: inline-block;
+  width: 390px;
+ 
 }
 
-body > * > *::before {
-  top: -3px;
-  left: -3px;
+.price {
+  display: inline-block;
+ 
 }
 
-body > * > * > *::before {
-  top: 0;
-  left: 0;
+.btn {
+  display: inline-block;
+  width: 80px;
+  
 }
 
-body > * {
-  background: rgba(0, 128, 0, 0.2);
-  box-shadow: 0 0 0 3px green;
+.set {
+  display: inline-block;
+  width: 260px;
 }
-
-body > *::before {
-  color: white;
-
-  background: green;
-}
-
-body > * > * {
-  background: rgba(255, 45, 82, 0.2);
-  box-shadow: 0 0 0 3px rgb(255, 45, 82);
-}
-
-body > * > *::before {
-  color: white;
-
-  background: rgb(255, 45, 82);
-}
-
-.main-header::before {
-  content: ".main-header";
-}
-
-.container::before {
-  content: ".container";
-}
-
-.main-header .container::before {
-  top: auto;
-  bottom: -28px;
-}*/
