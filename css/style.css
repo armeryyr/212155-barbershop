@@ -50,16 +50,43 @@ h2 {
 }
 
 .breadcrumbs {
-  float: left;
+  display: block;
 }
 
 form {
   float: left;
-   width: 230px;
+  width: 230px;
+  height: 575px;
 }
 
+.products {
+  display: inline-block;
+  width: 220px;
+  margin-left: 80px;
+  margin-bottom: 76px;
+}
 
+.paginator {
+  margin-left: 650px;
+}
 
+.main-footer {
+  margin-top: 65px;
+}
+
+.footer-contacts {
+  float: left;
+}
+
+.footer-social {
+  float: left;
+  margin-left: 80px;
+}
+
+.footer-copyright {
+  float: right;
+  margin-right: 130px;
+}
 
 
 
